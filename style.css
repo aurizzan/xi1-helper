@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #585481;
+    padding: 0px 16px;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    color: whitesmoke;
+    padding: 16px;
+    font-size: 17px;
+    margin: 0px 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    background-color: whitesmoke;
+    color: #585481;
+}
+
+.container{
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    background-color: #585481;
+    color: whitesmoke;
+
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #585481;
+
+    font-size: 16px;
+    margin: 0px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color:#585481;
+}
+
+.cent {
+    text-align: center;
+}
