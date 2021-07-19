@@ -6,7 +6,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #585481;
+    background-color: #4E8098;
     padding: 0px 16px;
 }
 
@@ -23,7 +23,7 @@ body {
 
 .navbar a:hover{
     background-color: whitesmoke;
-    color: #585481;
+    color: #4E8098;
 }
 
 .container{
@@ -33,13 +33,13 @@ body {
 .button {
     display: inline-block;
     width: 100px;
-    background-color: #585481;
+    background-color: #4E8098;
     color: whitesmoke;
 
     padding: 20px;
     border-radius: 10px;
     border-style: solid;
-    border-color: #585481;
+    border-color: #4E8098;
 
     font-size: 16px;
     margin: 0px 10px;
@@ -49,9 +49,28 @@ body {
 
 .button:hover{
     background-color: whitesmoke;
-    color:#585481;
+    color:#4E8098;
 }
 
 .cent {
     text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox-item {
+    padding: 20px;
+    border-style: solid;
+    border-color: #4E8098;
+}
+
+.ten-percent {
+    width: 10%;
+}
+
+.eighty-percent{
+    width:80%;
 }
